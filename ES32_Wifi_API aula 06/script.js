@@ -228,6 +228,7 @@ catch (erro) {
 
 if (client) {
 
+    
     client.on(
         "message",
         (topic, message) => {
